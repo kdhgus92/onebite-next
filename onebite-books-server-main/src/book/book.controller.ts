@@ -41,6 +41,7 @@ export class BookController {
     isArray: true,
   })
   findAll() {
+    console.log('findall');
     return this.bookService.findAllBooks();
   }
 
